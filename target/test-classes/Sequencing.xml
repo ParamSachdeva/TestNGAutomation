@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestNG Regression Suite" parallel="false"
+	thread-count="10">
+	<!-- Just a simple architecture for test NG -->
+			
+	<test name="Login Regression Suite">
+		<classes>
+		<parameter name="filepath" value="E://Project//IIJT//TestNGMavenGitFramework//test-data//login.txt"/> 
+			<class name="TestNG.Sequencing" />
+		</classes>		
+	</test> <!-- Test -->
+	
+	<test name="Search Regression Suite">
+		<classes>
+		 <parameter name="filepath" value="E://Project//IIJT//TestNGMavenGitFramework//test-data//Search.txt"/>
+			<class name="TestNG.Sequencing" />
+			<class name="TestNG.Sequencing2" />
+		</classes>		
+	</test> <!-- Test -->
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+</suite> <!-- Suite -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Search Regression Suite"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.009">
+  <properties />
+  
+  
+            <testcase name="login" time="0.001" classname="TestNG.Sequencing" />
+                <testcase name="IntializeFilePath" time="0.004" classname="TestNG.Sequencing" />
+                <testcase name="login" time="0.001" classname="TestNG.Sequencing" />
+                <testcase name="login" time="0.001" classname="TestNG.Sequencing" />
+                <testcase name="login" time="0.001" classname="TestNG.Sequencing" />
+                <testcase name="login" time="0.001" classname="TestNG.Sequencing" />
+      
+</testsuite>

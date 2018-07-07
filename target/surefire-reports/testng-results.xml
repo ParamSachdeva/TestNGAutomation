@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="18" passed="18">
+  <reporter-output>
+    <line>
+      <![CDATA[Username  is : user1]]>
+    </line>
+    <line>
+      <![CDATA[Password is : password1]]>
+    </line>
+    <line>
+      <![CDATA[Username  is : user2]]>
+    </line>
+    <line>
+      <![CDATA[Password is : password2]]>
+    </line>
+    <line>
+      <![CDATA[Username  is : user3]]>
+    </line>
+    <line>
+      <![CDATA[Password is : password3]]>
+    </line>
+    <line>
+      <![CDATA[Username  is : user4]]>
+    </line>
+    <line>
+      <![CDATA[Password is : password4]]>
+    </line>
+    <line>
+      <![CDATA[Username  is : user5]]>
+    </line>
+    <line>
+      <![CDATA[Password is : password5]]>
+    </line>
+    <line>
+      <![CDATA[Username  is : Vivo1]]>
+    </line>
+    <line>
+      <![CDATA[Password is : mi1]]>
+    </line>
+    <line>
+      <![CDATA[Username  is : Vivo2]]>
+    </line>
+    <line>
+      <![CDATA[Password is : mi2]]>
+    </line>
+    <line>
+      <![CDATA[Username  is : Vivo3]]>
+    </line>
+    <line>
+      <![CDATA[Password is : mi3]]>
+    </line>
+    <line>
+      <![CDATA[Username  is : Vivo4]]>
+    </line>
+    <line>
+      <![CDATA[Password is : mi4]]>
+    </line>
+    <line>
+      <![CDATA[Username  is : Vivo5]]>
+    </line>
+    <line>
+      <![CDATA[Password is : mi5]]>
+    </line>
+    <line>
+      <![CDATA[Username  is : Vivo1]]>
+    </line>
+    <line>
+      <![CDATA[Password is : mi1]]>
+    </line>
+    <line>
+      <![CDATA[Username  is : Vivo2]]>
+    </line>
+    <line>
+      <![CDATA[Password is : mi2]]>
+    </line>
+    <line>
+      <![CDATA[Username  is : Vivo3]]>
+    </line>
+    <line>
+      <![CDATA[Password is : mi3]]>
+    </line>
+    <line>
+      <![CDATA[Username  is : Vivo4]]>
+    </line>
+    <line>
+      <![CDATA[Password is : mi4]]>
+    </line>
+    <line>
+      <![CDATA[Username  is : Vivo5]]>
+    </line>
+    <line>
+      <![CDATA[Password is : mi5]]>
+    </line>
+  </reporter-output>
+  <suite name="TestNG Regression Suite" duration-ms="141" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+    <groups>
+    </groups>
+    <test name="Login Regression Suite" duration-ms="91" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+      <class name="TestNG.Sequencing">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNG.Sequencing@1bbf683]" name="beforeTest" is-config="true" duration-ms="1" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestNG.Sequencing@1bbf683]" name="beforeClass" is-config="true" duration-ms="1" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="IntializeFilePath(java.lang.String)[pri:0, instance:TestNG.Sequencing@1bbf683]" name="IntializeFilePath" duration-ms="2" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[E://Project//IIJT//TestNGMavenGitFramework//test-data//login.txt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IntializeFilePath -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.Sequencing@1bbf683]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.Sequencing@1bbf683]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:TestNG.Sequencing@1bbf683]" name="login" duration-ms="1" started-at="2018-07-07T08:43:59Z" data-provider="ParameterLogin" finished-at="2018-07-07T08:43:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1,password1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-----Please refer this data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Username  is : user1]]>
+            </line>
+            <line>
+              <![CDATA[Password is : password1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.Sequencing@1bbf683]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.Sequencing@1bbf683]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.Sequencing@1bbf683]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:TestNG.Sequencing@1bbf683]" name="login" duration-ms="0" started-at="2018-07-07T08:43:59Z" data-provider="ParameterLogin" finished-at="2018-07-07T08:43:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2,password2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-----Please refer this data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Username  is : user2]]>
+            </line>
+            <line>
+              <![CDATA[Password is : password2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.Sequencing@1bbf683]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.Sequencing@1bbf683]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:TestNG.Sequencing@1bbf683]" name="login" duration-ms="0" started-at="2018-07-07T08:43:59Z" data-provider="ParameterLogin" finished-at="2018-07-07T08:43:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user3,password3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-----Please refer this data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Username  is : user3]]>
+            </line>
+            <line>
+              <![CDATA[Password is : password3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.Sequencing@1bbf683]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.Sequencing@1bbf683]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.Sequencing@1bbf683]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:TestNG.Sequencing@1bbf683]" name="login" duration-ms="0" started-at="2018-07-07T08:43:59Z" data-provider="ParameterLogin" finished-at="2018-07-07T08:43:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user4,password4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-----Please refer this data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Username  is : user4]]>
+            </line>
+            <line>
+              <![CDATA[Password is : password4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.Sequencing@1bbf683]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestNG.Sequencing@1bbf683]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.Sequencing@1bbf683]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:TestNG.Sequencing@1bbf683]" name="login" duration-ms="0" started-at="2018-07-07T08:43:59Z" data-provider="ParameterLogin" finished-at="2018-07-07T08:43:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user5,password5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-----Please refer this data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Username  is : user5]]>
+            </line>
+            <line>
+              <![CDATA[Password is : password5]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNG.Sequencing@1bbf683]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNG.Sequencing -->
+    </test> <!-- Login Regression Suite -->
+    <test name="Search Regression Suite" duration-ms="20" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+      <class name="TestNG.Sequencing">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:TestNG.Sequencing@a35978]" name="beforeSuite" is-config="true" duration-ms="28" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:TestNG.Sequencing2@f7c8c1]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNG.Sequencing2@f7c8c1]" name="beforeTest" is-config="true" duration-ms="1" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNG.Sequencing@a35978]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestNG.Sequencing@a35978]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="IntializeFilePath(java.lang.String)[pri:0, instance:TestNG.Sequencing@a35978]" name="IntializeFilePath" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[E://Project//IIJT//TestNGMavenGitFramework//test-data//Search.txt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IntializeFilePath -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.Sequencing@a35978]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.Sequencing@a35978]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:TestNG.Sequencing@a35978]" name="login" duration-ms="0" started-at="2018-07-07T08:43:59Z" data-provider="ParameterLogin" finished-at="2018-07-07T08:43:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vivo1,mi1,iphone1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-----Please refer this data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Username  is : Vivo1]]>
+            </line>
+            <line>
+              <![CDATA[Password is : mi1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.Sequencing@a35978]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.Sequencing@a35978]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:TestNG.Sequencing@a35978]" name="login" duration-ms="0" started-at="2018-07-07T08:43:59Z" data-provider="ParameterLogin" finished-at="2018-07-07T08:43:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vivo2,mi2,iphone2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-----Please refer this data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Username  is : Vivo2]]>
+            </line>
+            <line>
+              <![CDATA[Password is : mi2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.Sequencing@a35978]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:TestNG.Sequencing@a35978]" name="login" duration-ms="0" started-at="2018-07-07T08:43:59Z" data-provider="ParameterLogin" finished-at="2018-07-07T08:43:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vivo3,mi3,iphone3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-----Please refer this data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Username  is : Vivo3]]>
+            </line>
+            <line>
+              <![CDATA[Password is : mi3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.Sequencing@a35978]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.Sequencing@a35978]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.Sequencing@a35978]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:TestNG.Sequencing@a35978]" name="login" duration-ms="0" started-at="2018-07-07T08:43:59Z" data-provider="ParameterLogin" finished-at="2018-07-07T08:43:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vivo4,mi4,iphone4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-----Please refer this data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Username  is : Vivo4]]>
+            </line>
+            <line>
+              <![CDATA[Password is : mi4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.Sequencing@a35978]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.Sequencing@a35978]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.Sequencing@a35978]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:TestNG.Sequencing@a35978]" name="login" duration-ms="0" started-at="2018-07-07T08:43:59Z" data-provider="ParameterLogin" finished-at="2018-07-07T08:43:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vivo5,mi5,iphone5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-----Please refer this data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Username  is : Vivo5]]>
+            </line>
+            <line>
+              <![CDATA[Password is : mi5]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.Sequencing@a35978]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestNG.Sequencing@a35978]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNG.Sequencing2@f7c8c1]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNG.Sequencing@a35978]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:TestNG.Sequencing@a35978]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:TestNG.Sequencing2@f7c8c1]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- TestNG.Sequencing -->
+      <class name="TestNG.Sequencing2">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestNG.Sequencing2@f7c8c1]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.Sequencing2@f7c8c1]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.Sequencing2@f7c8c1]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="IntializeFilePath(java.lang.String)[pri:0, instance:TestNG.Sequencing2@f7c8c1]" name="IntializeFilePath" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[E://Project//IIJT//TestNGMavenGitFramework//test-data//Search.txt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IntializeFilePath -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.Sequencing2@f7c8c1]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:TestNG.Sequencing2@f7c8c1]" name="login" duration-ms="0" started-at="2018-07-07T08:43:59Z" data-provider="ParameterLogin" finished-at="2018-07-07T08:43:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vivo1,mi1,iphone1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-----Please refer this data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Username  is : Vivo1]]>
+            </line>
+            <line>
+              <![CDATA[Password is : mi1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.Sequencing2@f7c8c1]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.Sequencing2@f7c8c1]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:TestNG.Sequencing2@f7c8c1]" name="login" duration-ms="0" started-at="2018-07-07T08:43:59Z" data-provider="ParameterLogin" finished-at="2018-07-07T08:43:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vivo2,mi2,iphone2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-----Please refer this data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Username  is : Vivo2]]>
+            </line>
+            <line>
+              <![CDATA[Password is : mi2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:TestNG.Sequencing2@f7c8c1]" name="login" duration-ms="0" started-at="2018-07-07T08:43:59Z" data-provider="ParameterLogin" finished-at="2018-07-07T08:43:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vivo3,mi3,iphone3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-----Please refer this data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Username  is : Vivo3]]>
+            </line>
+            <line>
+              <![CDATA[Password is : mi3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.Sequencing2@f7c8c1]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.Sequencing2@f7c8c1]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.Sequencing2@f7c8c1]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.Sequencing2@f7c8c1]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:TestNG.Sequencing2@f7c8c1]" name="login" duration-ms="0" started-at="2018-07-07T08:43:59Z" data-provider="ParameterLogin" finished-at="2018-07-07T08:43:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vivo4,mi4,iphone4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-----Please refer this data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Username  is : Vivo4]]>
+            </line>
+            <line>
+              <![CDATA[Password is : mi4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.Sequencing2@f7c8c1]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:TestNG.Sequencing2@f7c8c1]" name="login" duration-ms="0" started-at="2018-07-07T08:43:59Z" data-provider="ParameterLogin" finished-at="2018-07-07T08:43:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vivo5,mi5,iphone5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-----Please refer this data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Username  is : Vivo5]]>
+            </line>
+            <line>
+              <![CDATA[Password is : mi5]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG.Sequencing2@f7c8c1]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG.Sequencing2@f7c8c1]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestNG.Sequencing2@f7c8c1]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-07-07T08:43:59Z" finished-at="2018-07-07T08:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestNG.Sequencing2 -->
+    </test> <!-- Search Regression Suite -->
+  </suite> <!-- TestNG Regression Suite -->
+</testng-results>

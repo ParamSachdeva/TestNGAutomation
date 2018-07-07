@@ -1,0 +1,5 @@
+Vivo1,mi1,iphone1
+Vivo2,mi2,iphone2
+Vivo3,mi3,iphone3
+Vivo4,mi4,iphone4
+Vivo5,mi5,iphone5
